@@ -1,6 +1,6 @@
 function ForceDownloads()
 -- Download de mapas 
-  ifgame.GetMap() == "INSIRA.O.MAPA.AQUI" then
+  if game.GetMap() == "INSIRA.O.MAPA.AQUI" then
     resource.AddWorkshop("INSIRA.O.ID.DA.WORKSHOP.AQUI")
   -- Repita para adicionar mais mapas
   end
